@@ -1,0 +1,52 @@
+*{
+    padding:0%
+    margin: 0%
+}
+section{
+    margin: 50px auto;
+    width: 1025px;
+    height: 150px;
+}
+.rede{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 20px;
+    transition: 0.4s ease-out;
+    border-radius: 50%;
+    
+}
+.rede:hover{
+    cursor: pointer;
+    transform:translateY(-20px);
+    box-shadow: 4px 30px 16px 0px rgba(50, 50,50, 0.45);
+    }
+
+.rede#Facebook{
+    background-color: #2372a3;
+}
+.rede#Twitter{
+    background-color: #0084b4;
+}
+.rede#Instagram{
+    background-color: #3f729b;
+}
+.rede#Plus{
+    background-color: #dd4b39;
+}
+.icone{
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 15px;
+    width: 118px;
+}
+
+body{
+
+    background-color: 	#8FBC8F;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
